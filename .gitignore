@@ -1,0 +1,32 @@
+
+# Foundry build artifacts
+out/
+cache/
+
+# Dependencies (managed by forge install)
+lib/
+
+# Coverage reports
+lcov.info
+coverage/
+
+# Broadcast / deployment artifacts
+broadcast/*/dry-run/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Editor & OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
